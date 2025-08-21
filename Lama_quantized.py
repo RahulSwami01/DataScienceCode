@@ -7,7 +7,7 @@ from llama_cpp import Llama
 #    For example, from Hugging Face: TheBloke/sqlcoder-7B-GGUF or DevQuasar/defog.sqlcoder-7b-2-GGUF.
 #    Place the downloaded file in a location accessible by your script.
 
-model_name ="/Users/rahulswami/Downloads/sqlcoder-7b-2.Q4_0.gguf" # Adjust the filename and path as needed
+model_name ="/Users/sqlcoder-7b-2.Q4_0.gguf" # Adjust the filename and path as needed
 
 # Initialize the Llama model
 llm = Llama(
